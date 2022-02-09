@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+}
+
+body {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #2d4569;
+}
+
+header {
+    margin: 0 auto;
+    text-align: center;
+}
+
+header img {
+    height: 90px;
+}
+
+main {
+
+}
+
+section {
+    margin: 2rem 0;
+}
+
+main img {
+    height: 200px;
+}
+
+#bio {
+    display: flex;
+}
+
+#name-date {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    font-size: larger;
+}
+
+#bio-choose {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: .5rem;
+}
+
+#choose-list {
+    padding: .85rem;
+}
+
+#choose-list h4 {
+    margin-bottom: 1rem;
+    background-color: #555555;
+    font-weight: 100;
+}
+#choose-list ul {
+    padding-left: 1em;
+}
+
+#tech {
+    display: flex;
+    justify-content: space-between;
+}
+
+figure img {
+    height: 10rem;
+}
+
+figure {
+    width: 10rem;
+    text-align: center;
+    font-size: small;
+}
+
+figcaption {
+    background-color: rgba(0, 0, 0, .5);
+    padding: .5rem;
+    position: relative;
+    bottom: 1.5rem;
+}
+
+
+#interest h2 {
+    margin-bottom: 1rem;
+}
+
+.greyBox {
+    background-color: #555555;
+    font-weight: 100;
+    padding: 1rem;
+}
+
+.greyBox p {
+    margin-top: .75rem;
+}
+
+.blueText {
+    color: #C0F0FF;
+}
+
+h2, h4 {
+    color: #C0F0FF;
+}
+
+
+#copyright {
+    color: rgb(50, 50, 205);
+    background-color: chartreuse;
+    text-align: center;
+}
+
